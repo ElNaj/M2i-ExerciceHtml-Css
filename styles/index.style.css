@@ -1,8 +1,14 @@
 body {
-    width: auto;
-    background-color: rgb(196, 196, 196);
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    border: rgb(82, 78, 78);
+    background-color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     box-shadow: 10px 5px 5px rgb(56, 49, 49);
+}
+#global {
+    background-color: rgb(196, 196, 196);
 }
 header img {
     width: 250px;

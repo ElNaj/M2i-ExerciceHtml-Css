@@ -14,6 +14,10 @@ section header img {
     box-shadow: 5px 5px 5px rgb(56, 49, 49);
     margin-right: 30px;
 }
+section {
+    background-color: white;
+    border-bottom: solid black;
+}
 #compet_info img {
     width: 30px;
 }
@@ -51,6 +55,57 @@ section header img {
 }
 .compet-exp {
     display: flex;
-    border-bottom: solid black;
+    justify-content: space-around;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
 }
-
+#compet_info {
+    box-shadow: 10px 5px 5px rgb(82, 78, 78);
+    background-color: rgb(196, 196, 196);
+    padding-left: 10px;
+}
+#formation {
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid black;
+    margin-left: 15px;
+    margin-right: 15px;
+    box-shadow: 10px 5px 5px rgb(82, 78, 78);
+    background-color: rgb(196, 196, 196);
+    padding-left: 10px;
+}
+#exp {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    box-shadow: 10px 5px 5px rgb(82, 78, 78);
+    background-color: rgb(196, 196, 196);
+    padding-left: 10px;
+}
+#exp p span {
+    display: flex;
+    width: auto;
+}
+#formation p span {
+    display: flex;
+    width: auto;
+}
+footer {
+    text-align: center;
+}
+button {
+    width: 75px;
+    height: 25px;
+}
+.cl-aside {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid black;
+    margin-bottom: 20px;
+    box-shadow: 2px 5px 5px rgb(82, 78, 78);
+}
+#hobbies li{
+    list-style: none;
+    padding: 10px;
+}

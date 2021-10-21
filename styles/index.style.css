@@ -2,6 +2,7 @@ body {
     width: auto;
     background-color: rgb(196, 196, 196);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 10px 5px 5px rgb(56, 49, 49);
 }
 header img {
     width: 250px;
@@ -9,7 +10,9 @@ header img {
 }
 section header img {
     width: 40px;
+    height: 45px;
     box-shadow: 5px 5px 5px rgb(56, 49, 49);
+    margin-right: 30px;
 }
 #compet_info img {
     width: 30px;
@@ -17,17 +20,37 @@ section header img {
 .head {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(184, 178, 178);
-
+    margin: auto;
+    border-bottom: solid black;
 }
 .section_header {
     display: flex;
-    width: 250px;
     justify-content: space-around;
+    background-color: rgb(151, 146, 146);
+    margin: auto;
+    height: auto;
+    border-bottom: solid black;
 }
 #poste {
     width: 400px;
 }
 #java {
-
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
 }
+#spring {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+#angular {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.compet-exp {
+    display: flex;
+    border-bottom: solid black;
+}
+
